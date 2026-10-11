@@ -1,10 +1,10 @@
 description="A Library for reading and editing the meta-data of several popular audio formats"
 url="https://developer.kde.org/~wheeler/taglib.html"
 
-packager="spiky <spiky@nutyx.org>"
-contributors="Pierre,Greg,Tnut"
+packager="tnut <tnut@nutyx.org>"
+contributors="Pierre,Greg,Spiky"
 
-makedepends=(cmake utf8cpp)
+makedepends=(cmake utf8cpp cppunit)
 
 name=taglib
 version=2.3.2
