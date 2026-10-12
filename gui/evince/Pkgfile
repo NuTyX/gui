@@ -13,8 +13,6 @@ run=(adwaita-icon-theme gsettings-desktop-schemas
      desktop-file-utils gtk-update-icon-cache
      gnome-icon-theme libhandy)
 
-set=(gnome)
-
 name=evince
 version=48.4
 release=3
