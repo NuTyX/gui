@@ -199,10 +199,12 @@ drwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/component
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-mime-filter-canon
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-mime-filter-crlf
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-mime-filter-tohtml
+-rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-multipart-signed
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-param-list
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-provider-imapx
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-provider-nntp
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-provider-pop3
+-rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-quoted-printable
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-references
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-rfc2047
 -rwxr-xr-x	root/root	usr/libexec/evolution-data-server/installed-tests/test-camel-search-split
@@ -441,10 +443,12 @@ drwxr-xr-x	root/root	usr/share/installed-tests/evolution-data-server/
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-mime-filter-canon.test
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-mime-filter-crlf.test
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-mime-filter-tohtml.test
+-rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-multipart-signed.test
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-param-list.test
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-provider-imapx.test
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-provider-nntp.test
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-provider-pop3.test
+-rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-quoted-printable.test
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-references.test
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-rfc2047.test
 -rw-r--r--	root/root	usr/share/installed-tests/evolution-data-server/test-camel-search-split.test
