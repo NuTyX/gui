@@ -6,7 +6,7 @@ license="GPL2"
 packager="spiky <spiky@nutyx.org>"
 contributors="Fabienwang,Tnut"
 
-makedepends=(intltool libxfce4util libxfce4ui xfce4-panel libunique1 gtksourceview4)
+makedepends=(intltool libxfce4util libxfce4ui xfce4-panel gtksourceview4)
 run=(hicolor-icon-theme)
 
 set=(xfce4-extra)
