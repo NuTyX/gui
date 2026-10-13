@@ -314,6 +314,21 @@ lrwxrwxrwx	root/root	usr/share/help/pl/gnome-clocks/figures/org.gnome.clocks.svg
 -rw-r--r--	root/root	usr/share/help/pl/gnome-clocks/world-add.page
 -rw-r--r--	root/root	usr/share/help/pl/gnome-clocks/world-check.page
 -rw-r--r--	root/root	usr/share/help/pl/gnome-clocks/world-remove.page
+drwxr-xr-x	root/root	usr/share/help/pt/
+drwxr-xr-x	root/root	usr/share/help/pt/gnome-clocks/
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/alarm-add.page
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/alarm-edit.page
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/alarm-remove.page
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/alarm-snooze-stop.page
+drwxr-xr-x	root/root	usr/share/help/pt/gnome-clocks/figures/
+lrwxrwxrwx	root/root	usr/share/help/pt/gnome-clocks/figures/org.gnome.clocks.svg -> ../../../C/gnome-clocks/figures/org.gnome.clocks.svg
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/index.page
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/legal.xml
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/stopwatch.page
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/timer.page
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/world-add.page
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/world-check.page
+-rw-r--r--	root/root	usr/share/help/pt/gnome-clocks/world-remove.page
 drwxr-xr-x	root/root	usr/share/help/pt_BR/
 drwxr-xr-x	root/root	usr/share/help/pt_BR/gnome-clocks/
 -rw-r--r--	root/root	usr/share/help/pt_BR/gnome-clocks/alarm-add.page
@@ -344,6 +359,21 @@ lrwxrwxrwx	root/root	usr/share/help/ru/gnome-clocks/figures/org.gnome.clocks.svg
 -rw-r--r--	root/root	usr/share/help/ru/gnome-clocks/world-add.page
 -rw-r--r--	root/root	usr/share/help/ru/gnome-clocks/world-check.page
 -rw-r--r--	root/root	usr/share/help/ru/gnome-clocks/world-remove.page
+drwxr-xr-x	root/root	usr/share/help/sr/
+drwxr-xr-x	root/root	usr/share/help/sr/gnome-clocks/
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/alarm-add.page
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/alarm-edit.page
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/alarm-remove.page
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/alarm-snooze-stop.page
+drwxr-xr-x	root/root	usr/share/help/sr/gnome-clocks/figures/
+lrwxrwxrwx	root/root	usr/share/help/sr/gnome-clocks/figures/org.gnome.clocks.svg -> ../../../C/gnome-clocks/figures/org.gnome.clocks.svg
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/index.page
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/legal.xml
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/stopwatch.page
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/timer.page
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/world-add.page
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/world-check.page
+-rw-r--r--	root/root	usr/share/help/sr/gnome-clocks/world-remove.page
 drwxr-xr-x	root/root	usr/share/help/sv/
 drwxr-xr-x	root/root	usr/share/help/sv/gnome-clocks/
 -rw-r--r--	root/root	usr/share/help/sv/gnome-clocks/alarm-add.page
