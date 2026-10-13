@@ -99,6 +99,28 @@ lrwxrwxrwx	root/root	usr/share/help/cs/loupe/figures/zoom-out-symbolic.svg -> ..
 -rw-r--r--	root/root	usr/share/help/cs/loupe/supported-formats.page
 -rw-r--r--	root/root	usr/share/help/cs/loupe/trashing-images.page
 -rw-r--r--	root/root	usr/share/help/cs/loupe/viewing-images.page
+drwxr-xr-x	root/root	usr/share/help/da/
+drwxr-xr-x	root/root	usr/share/help/da/loupe/
+drwxr-xr-x	root/root	usr/share/help/da/loupe/figures/
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/edit-copy-symbolic.svg -> ../../../C/loupe/figures/edit-copy-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/go-next-symbolic.svg -> ../../../C/loupe/figures/go-next-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/go-previous-symbolic.svg -> ../../../C/loupe/figures/go-previous-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/help-about-symbolic.svg -> ../../../C/loupe/figures/help-about-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/object-rotate-left-symbolic.svg -> ../../../C/loupe/figures/object-rotate-left-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/object-rotate-right-symbolic.svg -> ../../../C/loupe/figures/object-rotate-right-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/org.gnome.Loupe.svg -> ../../../C/loupe/figures/org.gnome.Loupe.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/user-trash-symbolic.svg -> ../../../C/loupe/figures/user-trash-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/view-fullscreen-symbolic.svg -> ../../../C/loupe/figures/view-fullscreen-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/view-restore-symbolic.svg -> ../../../C/loupe/figures/view-restore-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/zoom-in-symbolic.svg -> ../../../C/loupe/figures/zoom-in-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/da/loupe/figures/zoom-out-symbolic.svg -> ../../../C/loupe/figures/zoom-out-symbolic.svg
+-rw-r--r--	root/root	usr/share/help/da/loupe/image-properties.page
+-rw-r--r--	root/root	usr/share/help/da/loupe/index.page
+-rw-r--r--	root/root	usr/share/help/da/loupe/opening-images.page
+-rw-r--r--	root/root	usr/share/help/da/loupe/sending-to-other-apps.page
+-rw-r--r--	root/root	usr/share/help/da/loupe/supported-formats.page
+-rw-r--r--	root/root	usr/share/help/da/loupe/trashing-images.page
+-rw-r--r--	root/root	usr/share/help/da/loupe/viewing-images.page
 drwxr-xr-x	root/root	usr/share/help/de/
 drwxr-xr-x	root/root	usr/share/help/de/loupe/
 drwxr-xr-x	root/root	usr/share/help/de/loupe/figures/
@@ -341,6 +363,28 @@ lrwxrwxrwx	root/root	usr/share/help/ko/loupe/figures/zoom-out-symbolic.svg -> ..
 -rw-r--r--	root/root	usr/share/help/ko/loupe/supported-formats.page
 -rw-r--r--	root/root	usr/share/help/ko/loupe/trashing-images.page
 -rw-r--r--	root/root	usr/share/help/ko/loupe/viewing-images.page
+drwxr-xr-x	root/root	usr/share/help/nl/
+drwxr-xr-x	root/root	usr/share/help/nl/loupe/
+drwxr-xr-x	root/root	usr/share/help/nl/loupe/figures/
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/edit-copy-symbolic.svg -> ../../../C/loupe/figures/edit-copy-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/go-next-symbolic.svg -> ../../../C/loupe/figures/go-next-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/go-previous-symbolic.svg -> ../../../C/loupe/figures/go-previous-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/help-about-symbolic.svg -> ../../../C/loupe/figures/help-about-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/object-rotate-left-symbolic.svg -> ../../../C/loupe/figures/object-rotate-left-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/object-rotate-right-symbolic.svg -> ../../../C/loupe/figures/object-rotate-right-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/org.gnome.Loupe.svg -> ../../../C/loupe/figures/org.gnome.Loupe.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/user-trash-symbolic.svg -> ../../../C/loupe/figures/user-trash-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/view-fullscreen-symbolic.svg -> ../../../C/loupe/figures/view-fullscreen-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/view-restore-symbolic.svg -> ../../../C/loupe/figures/view-restore-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/zoom-in-symbolic.svg -> ../../../C/loupe/figures/zoom-in-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/nl/loupe/figures/zoom-out-symbolic.svg -> ../../../C/loupe/figures/zoom-out-symbolic.svg
+-rw-r--r--	root/root	usr/share/help/nl/loupe/image-properties.page
+-rw-r--r--	root/root	usr/share/help/nl/loupe/index.page
+-rw-r--r--	root/root	usr/share/help/nl/loupe/opening-images.page
+-rw-r--r--	root/root	usr/share/help/nl/loupe/sending-to-other-apps.page
+-rw-r--r--	root/root	usr/share/help/nl/loupe/supported-formats.page
+-rw-r--r--	root/root	usr/share/help/nl/loupe/trashing-images.page
+-rw-r--r--	root/root	usr/share/help/nl/loupe/viewing-images.page
 drwxr-xr-x	root/root	usr/share/help/pl/
 drwxr-xr-x	root/root	usr/share/help/pl/loupe/
 drwxr-xr-x	root/root	usr/share/help/pl/loupe/figures/
@@ -407,6 +451,28 @@ lrwxrwxrwx	root/root	usr/share/help/ru/loupe/figures/zoom-out-symbolic.svg -> ..
 -rw-r--r--	root/root	usr/share/help/ru/loupe/supported-formats.page
 -rw-r--r--	root/root	usr/share/help/ru/loupe/trashing-images.page
 -rw-r--r--	root/root	usr/share/help/ru/loupe/viewing-images.page
+drwxr-xr-x	root/root	usr/share/help/sr/
+drwxr-xr-x	root/root	usr/share/help/sr/loupe/
+drwxr-xr-x	root/root	usr/share/help/sr/loupe/figures/
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/edit-copy-symbolic.svg -> ../../../C/loupe/figures/edit-copy-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/go-next-symbolic.svg -> ../../../C/loupe/figures/go-next-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/go-previous-symbolic.svg -> ../../../C/loupe/figures/go-previous-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/help-about-symbolic.svg -> ../../../C/loupe/figures/help-about-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/object-rotate-left-symbolic.svg -> ../../../C/loupe/figures/object-rotate-left-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/object-rotate-right-symbolic.svg -> ../../../C/loupe/figures/object-rotate-right-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/org.gnome.Loupe.svg -> ../../../C/loupe/figures/org.gnome.Loupe.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/user-trash-symbolic.svg -> ../../../C/loupe/figures/user-trash-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/view-fullscreen-symbolic.svg -> ../../../C/loupe/figures/view-fullscreen-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/view-restore-symbolic.svg -> ../../../C/loupe/figures/view-restore-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/zoom-in-symbolic.svg -> ../../../C/loupe/figures/zoom-in-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/help/sr/loupe/figures/zoom-out-symbolic.svg -> ../../../C/loupe/figures/zoom-out-symbolic.svg
+-rw-r--r--	root/root	usr/share/help/sr/loupe/image-properties.page
+-rw-r--r--	root/root	usr/share/help/sr/loupe/index.page
+-rw-r--r--	root/root	usr/share/help/sr/loupe/opening-images.page
+-rw-r--r--	root/root	usr/share/help/sr/loupe/sending-to-other-apps.page
+-rw-r--r--	root/root	usr/share/help/sr/loupe/supported-formats.page
+-rw-r--r--	root/root	usr/share/help/sr/loupe/trashing-images.page
+-rw-r--r--	root/root	usr/share/help/sr/loupe/viewing-images.page
 drwxr-xr-x	root/root	usr/share/help/sv/
 drwxr-xr-x	root/root	usr/share/help/sv/loupe/
 drwxr-xr-x	root/root	usr/share/help/sv/loupe/figures/
