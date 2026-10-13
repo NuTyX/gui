@@ -11,7 +11,7 @@ run=(gnome-shell)
 set=(gnome)
 
 name=gnome-shell-extension-appindicator
-version=65
+version=66
 
 source=($url.git)
 
