@@ -7,7 +7,6 @@ drwxr-xr-x	root/root	usr/include/KF6/KScreen/KScreen/
 -rw-r--r--	root/root	usr/include/KF6/KScreen/KScreen/ConfigOperation
 -rw-r--r--	root/root	usr/include/KF6/KScreen/KScreen/EDID
 -rw-r--r--	root/root	usr/include/KF6/KScreen/KScreen/GetConfigOperation
--rw-r--r--	root/root	usr/include/KF6/KScreen/KScreen/Log
 -rw-r--r--	root/root	usr/include/KF6/KScreen/KScreen/Mode
 -rw-r--r--	root/root	usr/include/KF6/KScreen/KScreen/Output
 -rw-r--r--	root/root	usr/include/KF6/KScreen/KScreen/Screen
@@ -23,7 +22,6 @@ drwxr-xr-x	root/root	usr/include/KF6/KScreen/kscreen/
 -rw-r--r--	root/root	usr/include/KF6/KScreen/kscreen/edid.h
 -rw-r--r--	root/root	usr/include/KF6/KScreen/kscreen/getconfigoperation.h
 -rw-r--r--	root/root	usr/include/KF6/KScreen/kscreen/kscreen_export.h
--rw-r--r--	root/root	usr/include/KF6/KScreen/kscreen/log.h
 -rw-r--r--	root/root	usr/include/KF6/KScreen/kscreen/mode.h
 -rw-r--r--	root/root	usr/include/KF6/KScreen/kscreen/output.h
 -rw-r--r--	root/root	usr/include/KF6/KScreen/kscreen/screen.h
