@@ -34,6 +34,8 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/kcm_plasmakeyboard.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.plasma.keyboard.desktop
+drwxr-xr-x	root/root	usr/share/config.kcfg/
+-rw-r--r--	root/root	usr/share/config.kcfg/plasmakeyboardsettings.kcfg
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.plasma.keyboard.metainfo.xml
 drwxr-xr-x	root/root	usr/share/plasma/
@@ -62,6 +64,14 @@ drwxr-xr-x	root/root	usr/share/plasma/keyboard/diacritics/
 -rw-r--r--	root/root	usr/share/plasma/keyboard/diacritics/sv_SE.json
 -rw-r--r--	root/root	usr/share/plasma/keyboard/diacritics/tr_TR.json
 drwxr-xr-x	root/root	usr/share/plasma/keyboard/layouts/
+drwxr-xr-x	root/root	usr/share/plasma/keyboard/layouts/am_ET/
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/am_ET/AmharicInputMethod.qml
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/am_ET/dialpad.qml
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/am_ET/digits.qml
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/am_ET/handwriting.qml
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/am_ET/main.qml
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/am_ET/numbers.qml
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/am_ET/symbols.qml
 drwxr-xr-x	root/root	usr/share/plasma/keyboard/layouts/ar_AR/
 -rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/ar_AR/dialpad.fallback (EMPTY)
 -rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/ar_AR/digits.qml
@@ -118,6 +128,14 @@ drwxr-xr-x	root/root	usr/share/plasma/keyboard/layouts/en_US/
 -rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/en_US/main.fallback (EMPTY)
 -rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/en_US/numbers.fallback (EMPTY)
 -rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/en_US/symbols.fallback (EMPTY)
+drwxr-xr-x	root/root	usr/share/plasma/keyboard/layouts/eo/
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/eo/dialpad.fallback (EMPTY)
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/eo/digits.fallback (EMPTY)
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/eo/handwriting.fallback (EMPTY)
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/eo/main.fallback (EMPTY)
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/eo/main.qml
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/eo/numbers.fallback (EMPTY)
+-rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/eo/symbols.fallback (EMPTY)
 drwxr-xr-x	root/root	usr/share/plasma/keyboard/layouts/es_ES/
 -rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/es_ES/dialpad.fallback (EMPTY)
 -rw-r--r--	root/root	usr/share/plasma/keyboard/layouts/es_ES/digits.fallback (EMPTY)
