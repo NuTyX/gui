@@ -1,6 +1,7 @@
 drwxr-xr-x	root/root	usr/share/locale/sr/
 drwxr-xr-x	root/root	usr/share/locale/sr/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+-rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/plasmanetworkmanagement-kcm-qml.mo
 -rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 -rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 -rw-r--r--	root/root	usr/share/locale/sr/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -18,6 +19,7 @@ drwxr-xr-x	root/root	usr/share/locale/sr/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/sr@ijekavian/
 drwxr-xr-x	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/plasmanetworkmanagement-kcm-qml.mo
 -rw-r--r--	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 -rw-r--r--	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 -rw-r--r--	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -35,6 +37,7 @@ drwxr-xr-x	root/root	usr/share/locale/sr@ijekavian/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/sr@ijekavianlatin/
 drwxr-xr-x	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+-rw-r--r--	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasmanetworkmanagement-kcm-qml.mo
 -rw-r--r--	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 -rw-r--r--	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 -rw-r--r--	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/plasmanetworkmanagement-libs.mo
@@ -52,6 +55,7 @@ drwxr-xr-x	root/root	usr/share/locale/sr@ijekavianlatin/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/share/locale/sr@latin/
 drwxr-xr-x	root/root	usr/share/locale/sr@latin/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/sr@latin/LC_MESSAGES/plasma_applet_org.kde.plasma.networkmanagement.mo
+-rw-r--r--	root/root	usr/share/locale/sr@latin/LC_MESSAGES/plasmanetworkmanagement-kcm-qml.mo
 -rw-r--r--	root/root	usr/share/locale/sr@latin/LC_MESSAGES/plasmanetworkmanagement-kcm.mo
 -rw-r--r--	root/root	usr/share/locale/sr@latin/LC_MESSAGES/plasmanetworkmanagement-kded.mo
 -rw-r--r--	root/root	usr/share/locale/sr@latin/LC_MESSAGES/plasmanetworkmanagement-libs.mo
