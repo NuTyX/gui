@@ -3,33 +3,21 @@ url="https://gitlab.gnome.org/GNOME/sushi"
 
 license="GPL2"
 
-packager="spiky <spiky@nutyx.org>"
-contributors=""
+packager="tnut <tnut@nutyx.org>"
+contributors="Spiky"
 
-makedepends=(gobject-introspection git meson gtk3 gjs gtksourceview4
-              gstreamer-plugins-base evince unoconv webkit2gtk-4)
+makedepends=(gobject-introspection git meson gtk4 gjs gtksourceview4
+             gstreamer-plugins-base evince unoconv webkit2gtk-6 papers)
 run=()
 set=(gnome)
 
 name=sushi
-version=50.0
+version=51.2
 
 source=(https://gitlab.gnome.org/GNOME/sushi/-/archive/$version/$name-$version.tar.gz)
 
-build() {
-cd $name-$version
-
-mkdir build
-cd    build
-
-meson setup .. \
-       --prefix=/usr          \
-       --libdir=/usr/lib      \
-       --buildtype=release
-
-ninja
-
-DESTDIR=$PKG ninja install
-
-install -Dm644 ../COPYING $PKG/usr/share/licenses/$name/COPYING
+build=meson
+package(){
+ install -Dm644 $name-$version/COPYING \
+ $PKG/usr/share/licenses/$name/COPYING
 }
