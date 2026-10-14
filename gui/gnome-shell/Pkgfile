@@ -18,8 +18,8 @@ run=(adwaita-icon-theme dconf gnome-backgrounds gnome-menus
 set=(gnome-base gnome)
 
 name=gnome-shell
-version=51.0
-release=2
+version=51.1
+release=1
 
 PKGMK_MESON_OPTIONS="-Dtests=false"
 PKGMK_GROUPS=(man)
