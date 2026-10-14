@@ -26,11 +26,10 @@ drwxr-xr-x	root/root	usr/include/PlasmaQuick/PlasmaQuick/
 -rw-r--r--	root/root	usr/include/PlasmaQuick/PlasmaQuick/ConfigView
 -rw-r--r--	root/root	usr/include/PlasmaQuick/PlasmaQuick/ContainmentView
 -rw-r--r--	root/root	usr/include/PlasmaQuick/PlasmaQuick/Dialog
+-rw-r--r--	root/root	usr/include/PlasmaQuick/PlasmaQuick/PlasmaQuick
 -rw-r--r--	root/root	usr/include/PlasmaQuick/PlasmaQuick/PlasmaShellWaylandIntegration
 -rw-r--r--	root/root	usr/include/PlasmaQuick/PlasmaQuick/PlasmaWindow
 -rw-r--r--	root/root	usr/include/PlasmaQuick/PlasmaQuick/PopupPlasmaWindow
--rw-r--r--	root/root	usr/include/PlasmaQuick/PlasmaQuick/QuickViewSharedEngine
--rw-r--r--	root/root	usr/include/PlasmaQuick/PlasmaQuick/SharedQmlEngine
 drwxr-xr-x	root/root	usr/include/PlasmaQuick/plasmaquick/
 -rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/appletpopup.h
 -rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/appletquickitem.h
@@ -38,12 +37,11 @@ drwxr-xr-x	root/root	usr/include/PlasmaQuick/plasmaquick/
 -rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/configview.h
 -rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/containmentview.h
 -rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/dialog.h
+-rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/plasmaquick.h
 -rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/plasmaquick_export.h
 -rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/plasmashellwaylandintegration.h
 -rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/plasmawindow.h
 -rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/popupplasmawindow.h
--rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/quickviewsharedengine.h
--rw-r--r--	root/root	usr/include/PlasmaQuick/plasmaquick/sharedqmlengine.h
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/Plasma/
 -rw-r--r--	root/root	usr/lib/cmake/Plasma/PlasmaConfig.cmake
@@ -56,3 +54,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/PlasmaQuick/
 -rw-r--r--	root/root	usr/lib/cmake/PlasmaQuick/PlasmaQuickConfigVersion.cmake
 -rw-r--r--	root/root	usr/lib/cmake/PlasmaQuick/PlasmaQuickTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/PlasmaQuick/PlasmaQuickTargets.cmake
+drwxr-xr-x	root/root	usr/lib/qt6/metatypes/
+-rw-r--r--	root/root	usr/lib/qt6/metatypes/qt6plasma_metatypes.json
+-rw-r--r--	root/root	usr/lib/qt6/metatypes/qt6plasmaquick_metatypes.json
