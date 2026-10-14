@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/lib/qt6/plugins/discover-notifier/
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/discover-notifier/DiscoverPackageKitNotifier.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/discover-notifier/FlatpakNotifier.so
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/discover/
+-rwxr-xr-x	root/root	usr/lib/qt6/plugins/discover/appstream-preview-backend.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/discover/flatpak-backend.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/discover/kns-backend.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/discover/packagekit-backend.so.disabled
@@ -27,11 +28,17 @@ drwxr-xr-x	root/root	usr/lib/qt6/plugins/plasma/kcms/systemsettings/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/kcm_updates.desktop
+-rwxr-xr-x	root/root	usr/share/applications/org.kde.discover.appstreampreview.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.discover.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.discover.flatpak.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.discover.notifier.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.discover.snap.desktop
 -rwxr-xr-x	root/root	usr/share/applications/org.kde.discover.urlhandler.desktop
+drwxr-xr-x	root/root	usr/share/config.kcfg/
+-rw-r--r--	root/root	usr/share/config.kcfg/discover-appstream-settings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/discover-updates.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/discoversettings-kcm.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/discoversettings.kcfg
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
@@ -64,6 +71,7 @@ drwxr-xr-x	root/root	usr/share/libdiscover/categories/
 -rw-r--r--	root/root	usr/share/libdiscover/categories/packagekit-backend-categories.xml
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.discover.appdata.xml
+-rw-r--r--	root/root	usr/share/metainfo/org.kde.discover.appstreampreview.metainfo.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.discover.flatpak.appdata.xml
 -rw-r--r--	root/root	usr/share/metainfo/org.kde.discover.packagekit.appdata.xml
 drwxr-xr-x	root/root	usr/share/qlogging-categories6/
