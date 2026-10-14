@@ -9,7 +9,7 @@ contributors="Spiky"
 set=(kde6 kde6-plasma)
 
 name=plasma-workspace
-version=6.7.5
+version=6.8.0
 release=1
 
 makedepends=(icu freetype xorg-fontconfig gpsd zlib wayland xcb-util xcb-util-image
@@ -21,7 +21,7 @@ makedepends=(icu freetype xorg-fontconfig gpsd zlib wayland xcb-util xcb-util-im
              accountsservice appstream kunitconversion kactivitymanagerd karchive
              kauth kbookmarks kcmutils kcolorscheme kcompletion kconfig
              kconfigwidgets kcoreaddons kcrash kdbusaddons kde-cli-tools
-             kdeclarative kglobalaccel kguiaddons kholidays
+             kdeclarative kglobalaccel kguiaddons kholidays union
              ki18n kiconthemes kidletime kio kio-extras kio-fuse
              kitemmodels kjobwidgets knewstuff knotifications
              knotifyconfig kpackage kparts kpipewire krunner

@@ -11,8 +11,6 @@ drwxr-xr-x	root/root	etc/xdg/menus/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gmenudbusmenuproxy
--rwxr-xr-x	root/root	usr/bin/kcminit
-lrwxrwxrwx	root/root	usr/bin/kcminit_startup -> kcminit
 -rwxr-xr-x	root/root	usr/bin/kcolorschemeeditor
 -rwxr-xr-x	root/root	usr/bin/kde-systemd-start-condition
 -rwxr-xr-x	root/root	usr/bin/kfontinst
@@ -34,7 +32,6 @@ lrwxrwxrwx	root/root	usr/bin/lookandfeeltool -> /usr/bin/plasma-apply-lookandfee
 -rwxr-xr-x	root/root	usr/bin/plasmashell
 -rwxr-xr-x	root/root	usr/bin/plasmawindowed
 -rwxr-xr-x	root/root	usr/bin/startplasma-wayland
--rwxr-xr-x	root/root	usr/bin/startplasma-x11
 -rwxr-xr-x	root/root	usr/bin/xembedsniproxy
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
@@ -42,12 +39,13 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/plasma6.0-remove-old-shortcuts
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/plasma6.3-update-clipboard-database-2-to-3
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/plasma6.4-migrate-fullscreen-notifications-to-dnd
+-rwxr-xr-x	root/root	usr/lib/kconf_update_bin/plasma6.8-remove-action-menu-shortcut
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/plasmashell-6.0-keep-custom-position-of-panels
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
 -rwxr-xr-x	root/root	usr/lib/kconf_update_bin/plasmashell-6.5-remove-stop-activity-shortcut
 lrwxrwxrwx	root/root	usr/lib/libbatterycontrol.so -> libbatterycontrol.so.6
-lrwxrwxrwx	root/root	usr/lib/libbatterycontrol.so.6 -> libbatterycontrol.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libbatterycontrol.so.6.7.5
+lrwxrwxrwx	root/root	usr/lib/libbatterycontrol.so.6 -> libbatterycontrol.so.6.8.0
+-rwxr-xr-x	root/root	usr/lib/libbatterycontrol.so.6.8.0
 drwxr-xr-x	root/root	usr/lib/libexec/
 -rwxr-xr-x	root/root	usr/lib/libexec/baloorunner
 drwxr-xr-x	root/root	usr/lib/libexec/kf6/
@@ -62,32 +60,32 @@ drwxr-xr-x	root/root	usr/lib/libexec/kf6/kauth/
 -rwxr-xr-x	root/root	usr/lib/libexec/plasma-dbus-run-session-if-needed
 -rwxr-xr-x	root/root	usr/lib/libexec/plasma-fallback-session-restore
 -rwxr-xr-x	root/root	usr/lib/libexec/plasma-fallback-session-save
+-rwxr-xr-x	root/root	usr/lib/libexec/plasma-setup-xwayland
 -rwxr-xr-x	root/root	usr/lib/libexec/plasma-sourceenv.sh
 -rwxr-xr-x	root/root	usr/lib/libexec/plasma-startup-sound
 lrwxrwxrwx	root/root	usr/lib/libkfontinst.so -> libkfontinst.so.6
-lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.6 -> libkfontinst.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libkfontinst.so.6.7.5
+lrwxrwxrwx	root/root	usr/lib/libkfontinst.so.6 -> libkfontinst.so.6.8.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinst.so.6.8.0
 lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so -> libkfontinstui.so.6
-lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.6 -> libkfontinstui.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.6.7.5
+lrwxrwxrwx	root/root	usr/lib/libkfontinstui.so.6 -> libkfontinstui.so.6.8.0
+-rwxr-xr-x	root/root	usr/lib/libkfontinstui.so.6.8.0
 lrwxrwxrwx	root/root	usr/lib/libklipper.so -> libklipper.so.6
-lrwxrwxrwx	root/root	usr/lib/libklipper.so.6 -> libklipper.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libklipper.so.6.7.5
+lrwxrwxrwx	root/root	usr/lib/libklipper.so.6 -> libklipper.so.6.8.0
+-rwxr-xr-x	root/root	usr/lib/libklipper.so.6.8.0
 lrwxrwxrwx	root/root	usr/lib/libklookandfeel.so -> libklookandfeel.so.6
-lrwxrwxrwx	root/root	usr/lib/libklookandfeel.so.6 -> libklookandfeel.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libklookandfeel.so.6.7.5
-lrwxrwxrwx	root/root	usr/lib/libkmpris.so.6 -> libkmpris.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libkmpris.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libkrdb.so
+lrwxrwxrwx	root/root	usr/lib/libklookandfeel.so.6 -> libklookandfeel.so.6.8.0
+-rwxr-xr-x	root/root	usr/lib/libklookandfeel.so.6.8.0
+lrwxrwxrwx	root/root	usr/lib/libkmpris.so.6 -> libkmpris.so.6.8.0
+-rwxr-xr-x	root/root	usr/lib/libkmpris.so.6.8.0
 lrwxrwxrwx	root/root	usr/lib/libkworkspace6.so -> libkworkspace6.so.6
-lrwxrwxrwx	root/root	usr/lib/libkworkspace6.so.6 -> libkworkspace6.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libkworkspace6.so.6.7.5
+lrwxrwxrwx	root/root	usr/lib/libkworkspace6.so.6 -> libkworkspace6.so.6.8.0
+-rwxr-xr-x	root/root	usr/lib/libkworkspace6.so.6.8.0
 lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so -> libnotificationmanager.so.1
-lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.6.7.5
+lrwxrwxrwx	root/root	usr/lib/libnotificationmanager.so.1 -> libnotificationmanager.so.6.8.0
+-rwxr-xr-x	root/root	usr/lib/libnotificationmanager.so.6.8.0
 lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so -> libtaskmanager.so.6
-lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.6.7.5
--rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.6.7.5
+lrwxrwxrwx	root/root	usr/lib/libtaskmanager.so.6 -> libtaskmanager.so.6.8.0
+-rwxr-xr-x	root/root	usr/lib/libtaskmanager.so.6.8.0
 drwxr-xr-x	root/root	usr/lib/qt6/
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/kf6/
@@ -160,9 +158,6 @@ drwxr-xr-x	root/root	usr/lib/qt6/plugins/plasma/containmentactions/
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/plasma/containmentactions/org.kde.switchdesktop.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/plasma/containmentactions/switchactivity.so
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/plasma/containmentactions/switchwindow.so
-drwxr-xr-x	root/root	usr/lib/qt6/plugins/plasma/kcminit/
-lrwxrwxrwx	root/root	usr/lib/qt6/plugins/plasma/kcminit/kcm_fonts_init.so -> ../kcms/systemsettings/kcm_fonts.so
-lrwxrwxrwx	root/root	usr/lib/qt6/plugins/plasma/kcminit/kcm_style_init.so -> ../kcms/systemsettings/kcm_style.so
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/plasma/kcms/
 drwxr-xr-x	root/root	usr/lib/qt6/plugins/plasma/kcms/systemsettings/
 -rwxr-xr-x	root/root	usr/lib/qt6/plugins/plasma/kcms/systemsettings/kcm_autostart.so
@@ -201,9 +196,6 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/breeze/components/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/breeze/components/SessionManagementScreen.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/breeze/components/UserDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/breeze/components/UserList.qml
--rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/breeze/components/VirtualKeyboard.qml
--rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/breeze/components/VirtualKeyboardLoader.qml
--rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/breeze/components/VirtualKeyboard_wayland.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/breeze/components/WallpaperFader.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/breeze/components/components.qmltypes
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/breeze/components/kde-qmlmodule.version
@@ -226,6 +218,11 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/lookandfeel/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/lookandfeel/lookandfeelqmlplugin.qmltypes
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/lookandfeel/qmldir
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/private/
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/private/accessibility/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/accessibility/accessibilityprivateplugin.qmltypes
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/accessibility/kde-qmlmodule.version
+-rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/private/accessibility/libaccessibilityprivateplugin.so
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/accessibility/qmldir
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/private/battery/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/battery/batterycontrol.qmltypes
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/battery/kde-qmlmodule.version
@@ -237,6 +234,7 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/private/clipboard/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/clipboard/ClipboardMenu.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/clipboard/DelegateToolButtons.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/clipboard/EditPage.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/clipboard/HoverBlocker.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/clipboard/ImageItemDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/clipboard/KlipperPopup.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/clipboard/TextItemDelegate.qml
@@ -294,6 +292,9 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/private/systemtray/
 -rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/private/systemtray/libsystemtrayplugin.so
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/systemtray/qmldir
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/private/systemtray/systemtrayplugin.qmltypes
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/shell/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/shell/plasmashell.qmltypes
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/shell/qmldir
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/wallpapers/
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/wallpapers/image/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/wallpapers/image/kde-qmlmodule.version
@@ -329,6 +330,12 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/keyboardlayout/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/keyboardlayout/keyboardlayoutplugin.qmltypes
 -rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/keyboardlayout/libkeyboardlayoutplugin.so
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/keyboardlayout/qmldir
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/loginlockscreen/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/loginlockscreen/Footer.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/loginlockscreen/kde-qmlmodule.version
+-rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/loginlockscreen/libloginlockscreen.so
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/loginlockscreen/loginlockscreen.qmltypes
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/loginlockscreen/qmldir
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/osd/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/osd/Osd.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/plasma/workspace/osd/OsdItem.qml
@@ -358,8 +365,6 @@ drwxr-xr-x	root/root	usr/lib/systemd/user/
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-baloorunner.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-core.target
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-gmenudbusmenuproxy.service
--rw-r--r--	root/root	usr/lib/systemd/user/plasma-kcminit-phase1.service
--rw-r--r--	root/root	usr/lib/systemd/user/plasma-kcminit.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-krunner.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-ksmserver.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-ksplash.service
@@ -367,7 +372,6 @@ drwxr-xr-x	root/root	usr/lib/systemd/user/
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-restoresession.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-startupsound.service
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-workspace-wayland.target
--rw-r--r--	root/root	usr/lib/systemd/user/plasma-workspace-x11.target
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-workspace.target
 -rw-r--r--	root/root	usr/lib/systemd/user/plasma-xembedsniproxy.service
 drwxr-xr-x	root/root	usr/share/
@@ -403,13 +407,26 @@ drwxr-xr-x	root/root	usr/share/applications/
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/colorssettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/cursorthemesettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/desktopthemesettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/feedbacksettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/fontssettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/freespacenotifier.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/iconssettingsbase.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/klipper.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/launchfeedbacksettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/lookandfeelsettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/nighttimesettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/notifications_badgesettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/notifications_behaviorsettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/notifications_donotdisturbsettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/notifications_eventsettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/notifications_jobsettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/notificationsettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/regionandlangsettingsbase.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/smserversettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/soundthemesettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/stylesettings.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/terminal_settings.kcfg
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/com.canonical.AppMenu.Registrar.xml
@@ -514,6 +531,7 @@ drwxr-xr-x	root/root	usr/share/kconf_update/
 -rw-r--r--	root/root	usr/share/kconf_update/plasma6.0-remove-old-shortcuts.upd
 -rw-r--r--	root/root	usr/share/kconf_update/plasma6.3-update-clipboard-database-2-to-3.upd
 -rw-r--r--	root/root	usr/share/kconf_update/plasma6.4-migrate-fullscreen-notifications-to-dnd.upd
+-rw-r--r--	root/root	usr/share/kconf_update/plasma6.8-remove-action-menu-shortcut.upd
 -rw-r--r--	root/root	usr/share/kconf_update/plasmashell-6.0-keep-custom-position-of-panels.upd
 -rw-r--r--	root/root	usr/share/kconf_update/plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels.upd
 -rw-r--r--	root/root	usr/share/kconf_update/plasmashell-6.5-remove-stop-activity-shortcut.upd
@@ -644,10 +662,6 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/conte
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/defaults
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/layouts/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/layouts/org.kde.plasma.desktop-layout.js
-drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/
--rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/Logout.qml
--rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/LogoutButton.qml
--rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/logout/timer.js
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/previews/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/previews/fullscreenpreview.jpg
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/org.kde.breeze.desktop/contents/previews/lockscreen.png
@@ -795,8 +809,6 @@ drwxr-xr-x	root/root	usr/share/xdg-desktop-portal/
 -rw-r--r--	root/root	usr/share/xdg-desktop-portal/kde-portals.conf
 drwxr-xr-x	root/root	usr/share/xdg-desktop-portal/portals/
 -rw-r--r--	root/root	usr/share/xdg-desktop-portal/portals/plasmanotify.portal
-drwxr-xr-x	root/root	usr/share/xsessions/
--rw-r--r--	root/root	usr/share/xsessions/plasmax11.desktop
 drwxr-xr-x	root/root	usr/share/zsh/
 drwxr-xr-x	root/root	usr/share/zsh/site-functions/
 -rw-r--r--	root/root	usr/share/zsh/site-functions/_krunner

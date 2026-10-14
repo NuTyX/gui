@@ -18,7 +18,6 @@ drwxr-xr-x	root/root	usr/share/locale/bg/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/kcm_style.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/kcm_users.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/kcm_wallpaper.mo
--rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/kcminit.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/kded_devicenotifications.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/kded_donationmessage.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/kded_geotimezoned.mo
@@ -26,7 +25,6 @@ drwxr-xr-x	root/root	usr/share/locale/bg/LC_MESSAGES/
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/kio_applications.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/kio_desktop.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/klipper.mo
--rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/krdb.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/krunner.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/ksecretprompter.mo
 -rw-r--r--	root/root	usr/share/locale/bg/LC_MESSAGES/ksmserver.mo
