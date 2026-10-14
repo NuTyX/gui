@@ -13,8 +13,8 @@ version=6.8.0
 release=1
 
 makedepends=(dmidecode qt6-base qt6-declarative extra-cmake-modules kdoctools
-             kauth kcmutils kconfig kcoreaddons ki18n kio kirigami kservice
-             kwidgetsaddons solid systemsettings xorg-xdpyinfo xorg-glu)
+             qt6-graphs kauth kcmutils kconfig kcoreaddons ki18n kio kirigami
+             kservice kwidgetsaddons solid systemsettings xorg-xdpyinfo xorg-glu)
 
 run=(wayland-utils)
 
