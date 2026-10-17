@@ -3,8 +3,8 @@ url="https://apps.gnome.org/Evince"
 
 license="GPL2"
 
-packager="spiky <spiky@nutyx.org>"
-contributors="Remy,Fanch,Fabienwang,Tnut"
+packager="tnut <tnut@nutyx.org>"
+contributors="Remy,Fanch,Fabienwang,Spiky"
 
 makedepends=(gtk3 gstreamer-plugins-base yelp-xsl
              itstool gobject-introspection meson ninja
@@ -15,7 +15,7 @@ run=(adwaita-icon-theme gsettings-desktop-schemas
 
 name=evince
 version=48.4
-release=3
+release=4
 
 PKGMK_MESON_OPTIONS="-Dgtk_doc=false --wrap-mode=nodownload"
 PKGMK_GROUPS=(devel man)
