@@ -10,10 +10,10 @@ makedepends=(meson ninja glib gtk4 appstream
              gobject-introspection gjs dconf)
 
 run=(hicolor-icon-theme)
-set=(gnome)
 
 name=gnome-extensions-app
 version=51.alpha
+release=2
 
 
 source=($url.git)
