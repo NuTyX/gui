@@ -13,7 +13,7 @@ run=(xorg-xauth xorg-server xorg-xinit)
 set=(kde6 kde6-plasma)
 
 name=plasma-login-manager
-version=6.8.0
+version=6.8.1
 release=1
 PKGMK_GROUPS=()
 
