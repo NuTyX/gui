@@ -724,9 +724,11 @@ drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer
 drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/__pycache__/__init__.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/__pycache__/__main__.cpython-314.pyc
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/__pycache__/colr.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/__pycache__/featureVars.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/__pycache__/names.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/__pycache__/solver.cpython-314.pyc
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/colr.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/featureVars.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/names.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/varLib/instancer/solver.py
@@ -763,17 +765,17 @@ drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fontTools/voltLib/__pycach
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/voltLib/lexer.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/voltLib/parser.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/voltLib/voltToFea.py
-drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/INSTALLER
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/REQUESTED (EMPTY)
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/entry_points.txt
-drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/licenses/
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/licenses/LICENSE
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/licenses/LICENSE.external
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.66.1.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/INSTALLER
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/entry_points.txt
+drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/licenses/
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/licenses/LICENSE
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/licenses/LICENSE.external
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.67.0.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/licenses/
 drwxr-xr-x	root/root	usr/share/licenses/python-fonttools/
