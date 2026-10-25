@@ -1,15 +1,15 @@
 description='A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir"'
 url='https://github.com/tox-dev/platformdirs'
 
-packager="tnut <tnut@nutyx.org>"
-contributors="Spiky"
+packager="spiky <spiky@nutyx.org>"
+contributors="Tnut"
 
 makedepends=(git python-installer python-setuptools python-wheel python-hatch-vcs)
 
 name=python-platformdirs
 alias=(platformdirs)
 
-version=4.11.12
+version=4.13.5
 
 source=($url.git)
 
