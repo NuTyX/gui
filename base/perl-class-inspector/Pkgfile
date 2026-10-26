@@ -8,6 +8,7 @@ makedepends=(perl)
 
 name=perl-class-inspector
 version=1.36
+release=2
 
 source=(https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-$version.tar.gz)
 
