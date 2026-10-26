@@ -8,6 +8,7 @@ makedepends=(perl-class-inspector)
 
 name=perl-file-sharedir
 version=1.118
+release=2
 
 source=(https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-$version.tar.gz)
 
