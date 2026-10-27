@@ -18,13 +18,12 @@ version=1.10.3
 
 PKGMK_GROUPS=(devel)
 
-source=($URL.git)
+source=(https://sourceforge.net/projects/deadbeef/files/Builds/$version/linux/deadbeef-$version.tar.bz2)
 
 build () {
     
     cd $name-$version
     export CC=clang CXX=clang++
-    ./autogen.sh
     ./configure --prefix=/usr --disable-ffmpeg --disable-notify --disable-lfm --disable-gtk2
   make 
   make DESTDIR=$PKG install
