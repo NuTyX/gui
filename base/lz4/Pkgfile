@@ -10,6 +10,8 @@ release=2
 
 set=(chroot)
 
+PKGMK_KEEP_SOURCES="no"
+
 source=(https://github.com/lz4/lz4/archive/v$version.tar.gz)
 
 build() {
