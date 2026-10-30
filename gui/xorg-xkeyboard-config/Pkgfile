@@ -1,8 +1,8 @@
 description="X keyboard configuration database"
 url="https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config"
 
-packager="spiky <spiky@nutyx.org>"
-contributors="Pierre,Greg,Tnut"
+packager="tnut <tnut@nutyx.org>"
+contributors="Pierre,Greg,Spiky"
 
 _name=xkeyboard-config
 name=xorg-xkeyboard-config
@@ -12,26 +12,19 @@ makedepends=(intltool xorgproto xorg-libx11 perl-xml-parser)
 _name=xkeyboard-config
 name=xorg-xkeyboard-config
 version=2.48
+release=2
 
 alias=(xkeyboard-config)
 
 source=(https://xorg.freedesktop.org/archive/individual/data/${_name}/${_name}-$version.tar.xz)
 
+PKGMK_MESON_OPTIONS="-Dcompat-rules=true -Dxorg-rules-symlinks=true"
+
 prepare() {
-cd ${_name}-$version
-sed -i -E 's/(ln -s)/\1f/' rules/meson.build
+  mv ${_name}-$version $name-$version
 }
+build=meson
 
-build() {
-
-cd ${_name}-$version
-mkdir build
-cd    build
-
-meson --prefix=/usr \
---buildtype=release ..
-
-ninja
-DESTDIR=$PKG ninja install
-
+package() {
+  ln -s us $PKG/usr/share/xkeyboard-config-2/symbols/uk
 }
