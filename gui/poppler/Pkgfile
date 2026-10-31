@@ -8,11 +8,11 @@ contributors="Alienus,Pierre.,Fanch,Fabienwang,Tnut"
 
 makedepends=(nss cmake xorg-libxxf86vm libpng xorg-fontconfig
              libjpeg-turbo cairo libxml2 lcms2
-             gobject-introspection gtk3 openjpeg)
+             gobject-introspection gtk3 openjpeg brotli)
 
 dataversion=0.4.12
 name=poppler
-version=26.08.0
+version=26.10.0
 release=1
 
 source=(
