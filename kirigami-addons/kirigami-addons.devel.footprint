@@ -14,8 +14,10 @@ drwxr-xr-x	root/root	usr/include/KirigamiAddons/Components/
 -rw-r--r--	root/root	usr/include/KirigamiAddons/Components/nameutils.h
 drwxr-xr-x	root/root	usr/include/KirigamiAddonsStatefulApp/
 -rw-r--r--	root/root	usr/include/KirigamiAddonsStatefulApp/AbstractKirigamiApplication
+-rw-r--r--	root/root	usr/include/KirigamiAddonsStatefulApp/ActionMenu
 -rw-r--r--	root/root	usr/include/KirigamiAddonsStatefulApp/KirigamiActionCollection
 -rw-r--r--	root/root	usr/include/KirigamiAddonsStatefulApp/abstractkirigamiapplication.h
+-rw-r--r--	root/root	usr/include/KirigamiAddonsStatefulApp/actionmenu.h
 -rw-r--r--	root/root	usr/include/KirigamiAddonsStatefulApp/kirigamiactioncollection.h
 -rw-r--r--	root/root	usr/include/KirigamiAddonsStatefulApp/kirigamiaddonsstatefulapp_export.h
 drwxr-xr-x	root/root	usr/lib/cmake/

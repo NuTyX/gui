@@ -1,19 +1,35 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libKirigamiAddonsComponents.so -> libKirigamiAddonsComponents.so.6
--rwxr-xr-x	root/root	usr/lib/libKirigamiAddonsComponents.so.1.13.1
-lrwxrwxrwx	root/root	usr/lib/libKirigamiAddonsComponents.so.6 -> libKirigamiAddonsComponents.so.1.13.1
+-rwxr-xr-x	root/root	usr/lib/libKirigamiAddonsComponents.so.1.16.0
+lrwxrwxrwx	root/root	usr/lib/libKirigamiAddonsComponents.so.6 -> libKirigamiAddonsComponents.so.1.16.0
 lrwxrwxrwx	root/root	usr/lib/libKirigamiAddonsStatefulApp.so -> libKirigamiAddonsStatefulApp.so.6
--rwxr-xr-x	root/root	usr/lib/libKirigamiAddonsStatefulApp.so.1.13.1
-lrwxrwxrwx	root/root	usr/lib/libKirigamiAddonsStatefulApp.so.6 -> libKirigamiAddonsStatefulApp.so.1.13.1
+-rwxr-xr-x	root/root	usr/lib/libKirigamiAddonsStatefulApp.so.1.16.0
+lrwxrwxrwx	root/root	usr/lib/libKirigamiAddonsStatefulApp.so.6 -> libKirigamiAddonsStatefulApp.so.1.16.0
 lrwxrwxrwx	root/root	usr/lib/libKirigamiApp.so -> libKirigamiApp.so.6
--rwxr-xr-x	root/root	usr/lib/libKirigamiApp.so.1.13.1
-lrwxrwxrwx	root/root	usr/lib/libKirigamiApp.so.6 -> libKirigamiApp.so.1.13.1
+-rwxr-xr-x	root/root	usr/lib/libKirigamiApp.so.1.16.0
+lrwxrwxrwx	root/root	usr/lib/libKirigamiApp.so.6 -> libKirigamiApp.so.1.16.0
 drwxr-xr-x	root/root	usr/lib/qt6/
 drwxr-xr-x	root/root	usr/lib/qt6/qml/
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/ActionMenu.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/ActionMenuBar.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/ActionMenuPopup.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/KirigamiAddonsActionsQml.qmltypes
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/StatefulWindow.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/kde-qmlmodule.version
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/labs/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/labs/NativeMenuBar.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/labs/NativeMenuItem.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/labs/actionslabsplugin.qmltypes
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/labs/kde-qmlmodule.version
+-rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/labs/libactionslabsplugin.so
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/labs/qmldir
+-rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/libKirigamiAddonsActionsQml.so
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/actions/qmldir
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/Avatar.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/AvatarButton.qml
@@ -36,6 +52,30 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/private/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/private/ActionsMenu.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/private/ContextMenuPage.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/qmldir
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/Material/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/Material/BottomDrawer.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/Material/DialogRoundedBackground.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/Material/DoubleFloatingButton.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/Material/FloatingButton.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/Material/FloatingToolBar.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/Material/MessageDialog.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/Material/RadioSelector.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/styles/Material/SegmentedButton.qml
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/BottomDrawer.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/DoubleFloatingButton.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/FloatingButton.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/FloatingToolBar.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/MessageDialog.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/RadioSelector.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/SegmentedButton.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/componentstemplatesplugin.qmltypes
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/kde-qmlmodule.version
+-rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/libcomponentstemplatesplugin.so
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/private/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/private/RadioSelectorButton.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/components/templates/qmldir
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/dateandtime/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/dateandtime/DatePopup.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/dateandtime/TimePicker.qml
@@ -60,6 +100,12 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/kde-qmlmodule.version
 -rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/libdelegatesplugin.so
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/qmldir
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/styles/
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/styles/Material/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/styles/Material/CheckDelegate.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/styles/Material/IndicatorItemDelegate.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/styles/Material/RadioDelegate.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/delegates/styles/Material/RoundedItemDelegate.qml
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/AboutKDE.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/AboutKDEPage.qml
@@ -75,6 +121,7 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormComboBoxDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormDateTimeDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormDelegateBackground.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormDelegateCollapsible.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormDelegateSeparator.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormFileDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormFolderDelegate.qml
@@ -87,6 +134,7 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormRadioDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormRadioSelectorDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormSectionText.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormSliderDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormSpinBoxDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormSwitchDelegate.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/FormTextAreaDelegate.qml
@@ -96,10 +144,36 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/kde-qmlmodule.version
 -rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/libformcardplugin.so
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/AboutDialog.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/AboutLicenseDialog.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/AboutReleaseDialog.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/ContentItemLoader.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/FormCardBackground.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/FormCardUnits.qml
--rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/SpinButton.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/FormChoiceDelegateLayout.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/FormDelegateLayout.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/FormInfoGrid.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/FormInlineMessage.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/private/FormPathCompletion.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/qmldir
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/styles/
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/styles/Material/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/styles/Material/FormCard.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/styles/Material/FormCardDialog.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/styles/Material/FormDelegateBackground.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/styles/Material/FormGridContainer.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/styles/Material/FormHeader.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/styles/Material/MaterialCardBackground.qml
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/FormCard.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/FormCardDialog.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/FormDelegateBackground.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/FormGridContainer.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/FormHeader.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/formcardtemplatesplugin.qmltypes
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/kde-qmlmodule.version
+-rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/libformcardtemplatesplugin.so
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/formcard/templates/qmldir
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/labs/
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/labs/components/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/labs/components/AbstractMaximizeComponent.qml
@@ -125,6 +199,12 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/onboarding/private/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/onboarding/private/OnboardingEffect.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/onboarding/private/OnboardingOverlay.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/onboarding/qmldir
+drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/private/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/private/I18n.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/private/kde-qmlmodule.version
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/private/kirigamiaddonsprivateplugin.qmltypes
+-rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/private/libkirigamiaddonsprivateplugin.so
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/private/qmldir
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/CategorizedSettings.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/ConfigurationModule.qml
@@ -138,6 +218,7 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/private/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/private/ActionIconGroup.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/private/ConfigMobilePage.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/private/ConfigWindow.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/private/ConfigurationSearch.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/private/SonnetConfigPage.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/private/kde-qmlmodule.version
 -rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/settings/private/libsettingsprivateplugin.so
@@ -152,10 +233,14 @@ drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/sounds/
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/sounds/qmldir
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/sounds/soundsplugin.qmltypes
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/ActionMenu.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/ActionMenuBar.qml
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/ActionMenuPopup.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/KirigamiAddonsStatefulApp.qmltypes
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/StatefulWindow.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/kde-qmlmodule.version
 drwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/
+-rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/NativeMenuBar.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/NativeMenuItem.qml
 -rw-r--r--	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/kde-qmlmodule.version
 -rwxr-xr-x	root/root	usr/lib/qt6/qml/org/kde/kirigamiaddons/statefulapp/labs/libstatefulapplabsplugin.so
