@@ -42,5 +42,14 @@ drwxr-xr-x	root/root	usr/include/KF6/KF6PulseAudioQt/PulseAudioQt/
 -rw-r--r--	root/root	usr/include/KF6/KF6PulseAudioQt/PulseAudioQt/streamrestore.h
 -rw-r--r--	root/root	usr/include/KF6/KF6PulseAudioQt/PulseAudioQt/volumeobject.h
 -rw-r--r--	root/root	usr/include/KF6/pulseaudioqt_version.h
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/KF6PulseAudioQt/
+-rw-r--r--	root/root	usr/lib/cmake/KF6PulseAudioQt/KF6PulseAudioQtConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6PulseAudioQt/KF6PulseAudioQtConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6PulseAudioQt/KF6PulseAudioQtQchTargets.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6PulseAudioQt/KF6PulseAudioQtTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/KF6PulseAudioQt/KF6PulseAudioQtTargets.cmake
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/KF6PulseAudioQt.pc
+drwxr-xr-x	root/root	usr/lib/qt6/metatypes/
+-rw-r--r--	root/root	usr/lib/qt6/metatypes/qt6kf6pulseaudioqt_metatypes.json
