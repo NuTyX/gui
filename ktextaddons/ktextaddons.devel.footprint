@@ -90,18 +90,19 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoCorrectionCore/textautocorrectionco
 drwxr-xr-x	root/root	usr/include/KF6/TextAutoCorrectionWidgets/
 drwxr-xr-x	root/root	usr/include/KF6/TextAutoCorrectionWidgets/TextAutoCorrectionWidgets/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/TextAutoCorrectionWidgets/AutoCorrectionLanguage
--rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/TextAutoCorrectionWidgets/AutoCorrectionTextEdit
 -rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/TextAutoCorrectionWidgets/AutoCorrectionWidget
+-rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/TextAutoCorrectionWidgets/AutoCorrector
 drwxr-xr-x	root/root	usr/include/KF6/TextAutoCorrectionWidgets/textautocorrectionwidgets/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/textautocorrectionwidgets/autocorrectionlanguage.h
--rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/textautocorrectionwidgets/autocorrectiontextedit.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/textautocorrectionwidgets/autocorrectionwidget.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/textautocorrectionwidgets/autocorrector.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/textautocorrectionwidgets/textautocorrectionwidgets_export.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoCorrectionWidgets/textautocorrectionwidgets_version.h
 drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/
 drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/LRUCache
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateAgent
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateAgentPrompSkillManager
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateAnswerInfo
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateAskJob
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateAttachment
@@ -126,6 +127,8 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateLocalDatabaseAbstract
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateLocalMessagesDatabase
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateLocalProjectsDatabase
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateLocalTagsDatabase
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateManager
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateManagerBase
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateMenuConfigureDialog
@@ -142,6 +145,9 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGeneratePluginText
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGeneratePluginTextInterface
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGeneratePluginTextManager
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateProject
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateProjectsManager
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateProjectsModel
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGeneratePrompt
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateQuickAskDialog
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateQuickAskWidget
@@ -152,6 +158,8 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateSettings
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateSkill
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateStackWidget
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTag
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTagsModel
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextClient
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextConfigurePluginsWidget
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextConfigurePromptWidget
@@ -160,6 +168,8 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextInstancesManagerDialog
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextInstancesManagerWidget
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextPlugin
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextPromptModel
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextPromptSortFilterProxyModel
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextReplyInfo
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextRequest
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/TextAutoGenerateText/TextAutoGenerateTextToolBaseJob
@@ -179,6 +189,7 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/config-textautogeneratetext.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/lrucache.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateagent.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateagentprompskillmanager.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateanswerinfo.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateaskjob.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateattachment.h
@@ -203,6 +214,8 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratelocaldatabaseabstract.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratelocaldatabasemanager.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratelocalmessagesdatabase.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratelocalprojectsdatabase.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratelocaltagsdatabase.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratemanager.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratemanagerbase.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratemenuconfiguredialog.h
@@ -219,6 +232,9 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateplugintext.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateplugintextinterface.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateplugintextmanager.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateproject.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateprojectsmanager.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateprojectsmodel.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateprompt.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratequickaskdialog.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratequickaskwidget.h
@@ -229,6 +245,8 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratesettings.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogenerateskill.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratestackwidget.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetag.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetagsmodel.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetext_export.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetextclient.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetextconfigurepluginswidget.h
@@ -239,6 +257,8 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetextinstancesmanagerdialog.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetextinstancesmanagerwidget.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetextplugin.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetextpromptmodel.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetextpromptsortfilterproxymodel.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetextreplyinfo.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetextrequest.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateText/textautogeneratetext/textautogeneratetexttoolbasejob.h
@@ -277,10 +297,12 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAut
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolCompleteResult
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolCreateMessageRequest
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolCreateMessageRequestParams
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolCreateMessageResult
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolCreateTaskResult
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolElicitRequest
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolElicitRequestFormParams
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolElicitRequestURLParams
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolElicitResult
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolElicitationCompleteNotification
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolEmbeddedResource
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolError
@@ -368,6 +390,7 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAut
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolTextContent
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolTextResourceContents
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolTitledMultiSelectEnumSchema
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolTitledSingleSelectEnumSchema
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolTool
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolToolAnnotations
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/TextAutoGenerateTextMcpProtocolCore/McpProtocolToolChoice
@@ -406,11 +429,13 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textaut
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolcompleteresult.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolcreatemessagerequest.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolcreatemessagerequestparams.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolcreatemessageresult.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolcreatetaskresult.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolelicitationcompletenotification.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolelicitrequest.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolelicitrequestformparams.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolelicitrequesturlparams.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolelicitresult.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolembeddedresource.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolerror.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocolgetpromptrequest.h
@@ -497,6 +522,7 @@ drwxr-xr-x	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textaut
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocoltextcontent.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocoltextresourcecontents.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocoltitledmultiselectenumschema.h
+-rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocoltitledsingleselectenumschema.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocoltool.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocoltoolannotations.h
 -rw-r--r--	root/root	usr/include/KF6/TextAutoGenerateTextMcpProtocolCore/textautogeneratetextmcpprotocolcore/mcpprotocoltoolchoice.h
@@ -563,6 +589,7 @@ drwxr-xr-x	root/root	usr/include/KF6/TextEditTextToSpeech/TextEditTextToSpeech/
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/TextEditTextToSpeech/TextToSpeech
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/TextEditTextToSpeech/TextToSpeechActions
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/TextEditTextToSpeech/TextToSpeechConfigDialog
+-rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/TextEditTextToSpeech/TextToSpeechConfigInterface
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/TextEditTextToSpeech/TextToSpeechConfigWidget
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/TextEditTextToSpeech/TextToSpeechContainerWidget
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/TextEditTextToSpeech/TextToSpeechInterface
@@ -572,6 +599,7 @@ drwxr-xr-x	root/root	usr/include/KF6/TextEditTextToSpeech/textedittexttospeech/
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/textedittexttospeech/texttospeech.h
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/textedittexttospeech/texttospeechactions.h
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/textedittexttospeech/texttospeechconfigdialog.h
+-rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/textedittexttospeech/texttospeechconfiginterface.h
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/textedittexttospeech/texttospeechconfigwidget.h
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/textedittexttospeech/texttospeechcontainerwidget.h
 -rw-r--r--	root/root	usr/include/KF6/TextEditTextToSpeech/textedittexttospeech/texttospeechinterface.h
@@ -629,6 +657,7 @@ drwxr-xr-x	root/root	usr/include/KF6/TextGrammarCheck/TextGrammarCheck/
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammarError
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammarResultTextEdit
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/TextGrammarCheck/GrammarResultWidget
+-rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageInfo
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageToolComboBox
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageToolConfigDialog
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/TextGrammarCheck/LanguageToolConfigWidget
@@ -646,6 +675,7 @@ drwxr-xr-x	root/root	usr/include/KF6/TextGrammarCheck/textgrammarcheck/
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammarerror.h
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammarresulttextedit.h
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/textgrammarcheck/grammarresultwidget.h
+-rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/textgrammarcheck/languageinfo.h
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolcombobox.h
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolconfigdialog.h
 -rw-r--r--	root/root	usr/include/KF6/TextGrammarCheck/textgrammarcheck/languagetoolconfigwidget.h
@@ -708,6 +738,7 @@ drwxr-xr-x	root/root	usr/include/KF6/TextUtils/TextUtils/
 -rw-r--r--	root/root	usr/include/KF6/TextUtils/TextUtils/TextUtilsIconNameCache
 -rw-r--r--	root/root	usr/include/KF6/TextUtils/TextUtils/TextUtilsSyntaxHighlighter
 -rw-r--r--	root/root	usr/include/KF6/TextUtils/TextUtils/TextUtilsSyntaxHighlightingManager
+-rw-r--r--	root/root	usr/include/KF6/TextUtils/TextUtils/TextUtilsTextToHtml
 drwxr-xr-x	root/root	usr/include/KF6/TextUtils/textutils/
 -rw-r--r--	root/root	usr/include/KF6/TextUtils/textutils/converttext.h
 -rw-r--r--	root/root	usr/include/KF6/TextUtils/textutils/textutils_export.h
@@ -718,6 +749,7 @@ drwxr-xr-x	root/root	usr/include/KF6/TextUtils/textutils/
 -rw-r--r--	root/root	usr/include/KF6/TextUtils/textutils/textutilsiconnamecache.h
 -rw-r--r--	root/root	usr/include/KF6/TextUtils/textutils/textutilssyntaxhighlighter.h
 -rw-r--r--	root/root	usr/include/KF6/TextUtils/textutils/textutilssyntaxhighlightingmanager.h
+-rw-r--r--	root/root	usr/include/KF6/TextUtils/textutils/textutilstexttohtml.h
 -rw-r--r--	root/root	usr/include/KF6/TextUtils/textutils_version.h
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/KF6TextAddonsWidgets/
